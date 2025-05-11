@@ -7,26 +7,26 @@ The goal of this project is to leverage machine learning techniques to build a c
 The project leverages the following technologies:
 
 **1.	Python Libraries:**
-•	Pandas: For data manipulation and preprocessing.
-•	NumPy: For numerical operations.
-•	Seaborn & Matplotlib: For data visualization, including histograms, heatmaps, ROC curves, and precision-recall curves.
-•	Scikit-learn: For machine learning models, model evaluation, and hyperparameter tuning. Specifically, we use: 
+•	**Pandas**: For data manipulation and preprocessing.
+•	**NumPy**: For numerical operations.
+•	**Seaborn & Matplotlib**: For data visualization, including histograms, heatmaps, ROC curves, and precision-recall curves.
+•	**Scikit-learn**: For machine learning models, model evaluation, and hyperparameter tuning. Specifically, we use: 
 RandomForestClassifier, DecisionTreeClassifier, and XGBClassifier for classification tasks.
-GridSearchCV for hyperparameter tuning.
-StandardScaler for feature scaling.
-VotingClassifier for combining multiple models into an ensemble.
+**GridSearchCV** for hyperparameter tuning.
+**StandardScaler** for feature scaling.
+**VotingClassifier** for combining multiple models into an ensemble.
 roc_curve, auc, precision_recall_curve for evaluation.
-•	XGBoost: For training an efficient gradient-boosted tree model, which is known for its high performance.
-•	URL Parsing: For extracting features from URLs, including domain information, query components, and the presence of suspicious terms.
+•	**XGBoost**: For training an efficient gradient-boosted tree model, which is known for its high performance.
+•	**URL Parsing**: For extracting features from URLs, including domain information, query components, and the presence of suspicious terms.
 
 **2.	Machine Learning Algorithms:**
-•	Decision Trees: A simple, interpretable classification model that splits the data based on features.
-•	Random Forests: An ensemble of decision trees that improves classification accuracy by averaging predictions.
-•	XGBoost: A highly efficient, scalable machine learning library for gradient boosting, known for winning many Kaggle competitions.
-•	Ensemble Voting Classifier: A model that combines the predictions of Decision Tree, Random Forest, and XGBoost to improve overall prediction accuracy.
+•	**Decision Trees**: A simple, interpretable classification model that splits the data based on features.
+•	**Random Forests**: An ensemble of decision trees that improves classification accuracy by averaging predictions.
+•	**XGBoost**: A highly efficient, scalable machine learning library for gradient boosting, known for winning many Kaggle competitions.
+•	**Ensemble Voting Classifier**: A model that combines the predictions of Decision Tree, Random Forest, and XGBoost to improve overall prediction accuracy.
 
 **3.	Model Evaluation:**
-•	Confusion Matrix: To measure the performance of the classification models.
-•	Classification Report: To evaluate precision, recall, and F1-score for each model.
-•	ROC Curve and AUC: To assess the ability of the models to distinguish between phishing and legitimate websites.
-•	Precision-Recall Curve: To evaluate the performance of models, especially for imbalanced datasets.
+•	**Confusion Matrix**: To measure the performance of the classification models.
+•	**Classification Report**: To evaluate precision, recall, and F1-score for each model.
+•	**ROC Curve and AUC**: To assess the ability of the models to distinguish between phishing and legitimate websites.
+•	**Precision-Recall Curve**: To evaluate the performance of models, especially for imbalanced datasets.
